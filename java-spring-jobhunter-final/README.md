@@ -1,19 +1,39 @@
-# Java Spring RESTful API (FINAL PROJECT)
-Full Source Code series Java Spring Restful (dự án jobHunter) của tác giả Hỏi Dân IT (Eric)
+## JobHunter - Java Spring Boot Project
 
-===
-Môi trường dự án: Java v17
+JobHunter là một hệ thống quản lý và tìm kiếm việc làm được xây dựng bằng Spring Boot, cung cấp API backend cho ứng dụng web tìm việc.
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+### Tính năng chính
+- Quản lý tài khoản người dùng (đăng ký, đăng nhập, phân quyền)
+- Quản lý công ty, tin tuyển dụng, hồ sơ ứng viên
+- Tìm kiếm và lọc việc làm theo nhiều tiêu chí
+- Quản lý và duyệt hồ sơ ứng viên
+- Tích hợp với frontend React Vite
 
-Website chính thức: https://hoidanit.vn/
+### Công nghệ sử dụng
+- Java 17, Spring Boot 3
+- Spring Data JPA, Hibernate
+- MySQL/PostgreSQL
+- RESTful API
+- Docker (tuỳ chọn)
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+### Cấu trúc thư mục
+- `src/main/java`: Mã nguồn backend
+- `src/main/resources`: Cấu hình, template, static files
+- `build.gradle.kts`: File cấu hình Gradle
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+### Hướng dẫn chạy dự án
+1. Cài đặt Java 17 và MySQL/PostgreSQL
+2. Cấu hình database trong `src/main/resources/application.properties`
+3. Chạy lệnh sau để build và khởi động server:
+	```powershell
+	./gradlew bootRun
+	```
+4. Truy cập API tại `http://localhost:8080`
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+### Tác giả
+- Duchinh
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+---
+Frontend: [react-vite-jobhunter](../react-vite-jobhunter)
+
 

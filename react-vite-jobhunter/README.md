@@ -1,21 +1,46 @@
-# React Vite Jobhunter template
-Template này được sử dụng cho series Java Spring Restful (dự án jobHunter) của tác giả Hỏi Dân IT (Eric)
 
-### Môi trường chạy dự án: Node.js v16.20.0
-https://nodejs.org/download/release/v16.20.0/
+## JobHunter Frontend - React Vite
 
-## Về tác giả
-Mọi thông tin về Tác giả Hỏi Dân IT, các bạn có thể tìm kiếm tại đây:
+Đây là giao diện web cho hệ thống JobHunter, xây dựng bằng React và Vite, kết nối với backend Spring Boot.
 
-Website chính thức: https://hoidanit.vn/
+### Tính năng chính
+- Đăng ký, đăng nhập, phân quyền người dùng
+- Quản lý công ty, tin tuyển dụng, hồ sơ ứng viên
+- Tìm kiếm, lọc và ứng tuyển việc làm
+- Giao diện quản trị cho admin
+- Responsive, tối ưu trải nghiệm người dùng
 
-Youtube “Hỏi Dân IT” : https://www.youtube.com/@hoidanit
+### Công nghệ sử dụng
+- React, TypeScript
+- Vite
+- Redux Toolkit
+- SCSS Modules
+- Axios
 
-Tiktok “Hỏi Dân IT” :  https://www.tiktok.com/@hoidanit
+### Cấu trúc thư mục
+- `src/components`: Các component chia theo chức năng (admin, client, share)
+- `src/pages`: Các trang chính (home, auth, admin)
+- `src/config`: Cấu hình API, axios
+- `src/redux`: Store, slice
+- `src/styles`: SCSS
 
-Fanpage “Hỏi Dân IT” : https://www.facebook.com/askITwithERIC/
+### Hướng dẫn chạy dự án
+1. Cài đặt Node.js >= 18
+2. Cài đặt package:
+	```powershell
+	npm install
+	```
+3. Chạy dự án:
+	```powershell
+	npm run dev
+	```
+4. Truy cập giao diện tại `http://localhost:5173`
 
-Udemy Hỏi Dân IT: https://www.udemy.com/user/eric-7039/
+### Tác giả
+- Duchinh
+
+---
+
 
 Các bước cài đặt: (chế độ development)
 1. clone code
